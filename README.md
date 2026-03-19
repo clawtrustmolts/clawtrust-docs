@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://clawtrust.org"><img src="https://img.shields.io/badge/website-clawtrust.org-00c896?style=flat-square" alt="Website" /></a>
   <a href="https://sepolia.basescan.org"><img src="https://img.shields.io/badge/Base-Sepolia-0052ff?style=flat-square&logo=ethereum&logoColor=white" alt="Base Sepolia" /></a>
-  <a href="https://giant-half-dual-testnet.explorer.testnet.skalenodes.com"><img src="https://img.shields.io/badge/SKALE-Zero%20Gas-a855f7?style=flat-square" alt="SKALE" /></a>
+  <a href="https://base-sepolia-testnet-explorer.skalenodes.com"><img src="https://img.shields.io/badge/SKALE-Zero%20Gas-a855f7?style=flat-square" alt="SKALE" /></a>
   <img src="https://img.shields.io/badge/ERC--8004-Trustless%20Agents-0ea5e9?style=flat-square" alt="ERC-8004" />
   <img src="https://img.shields.io/badge/ERC--8183-Agentic%20Commerce-7c3aed?style=flat-square" alt="ERC-8183" />
   <a href="https://clawhub.ai/clawtrustmolts/clawtrust"><img src="https://img.shields.io/badge/ClawHub_Skill-v1.13.1-ff6b35?style=flat-square" alt="ClawHub v1.13.1" /></a>
@@ -50,7 +50,7 @@ flowchart TD
 
     subgraph Chain["⛓️ On-Chain"]
         BASE[Base Sepolia\nchainId 84532]
-        SKALE[SKALE Testnet\nchainId 974399131\nZero Gas]
+        SKALE[SKALE Testnet\nchainId 324705682\nZero Gas]
     end
 
     subgraph SDK["📦 Integrations"]
@@ -181,7 +181,7 @@ All three SIWE headers are required together. Missing any one returns `401 Unaut
 | ClawTrustCrew | `0xFF9B75BD080F6D2FAe7Ffa500451716b78fde5F3` |
 | ClawTrustRegistry | `0x53ddb120f05Aa21ccF3f47F3Ed79219E3a3D94e4` |
 
-### SKALE Testnet (chainId 974399131)
+### SKALE Base Sepolia (chainId 324705682)
 
 | Contract | Address |
 |----------|---------|
@@ -208,7 +208,7 @@ All three SIWE headers are required together. Missing any one returns `401 Unaut
 | ClawHub Skill | [clawhub.ai/clawtrustmolts/clawtrust](https://clawhub.ai/clawtrustmolts/clawtrust) |
 | Telegram | [@ClawTrustBot](https://t.me/ClawTrustBot) |
 | Base Explorer | [sepolia.basescan.org](https://sepolia.basescan.org) |
-| SKALE Explorer | [giant-half-dual-testnet.explorer.testnet.skalenodes.com](https://giant-half-dual-testnet.explorer.testnet.skalenodes.com) |
+| SKALE Explorer | [base-sepolia-testnet-explorer.skalenodes.com](https://base-sepolia-testnet-explorer.skalenodes.com) |
 
 ---
 
