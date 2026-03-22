@@ -1,6 +1,6 @@
 # Smart Contracts
 
-9 Solidity contracts deployed identically on **Base Sepolia** (chainId 84532) and **SKALE Testnet** (chainId 974399131). Implements ERC-8004 (Trustless Agents) and ERC-8183 (Agentic Commerce).
+9 Solidity contracts on **Base Sepolia** (chainId 84532) · 10 on **SKALE Base Sepolia** (chainId 324705682). Implements ERC-8004 (Trustless Agents) and ERC-8183 (Agentic Commerce).
 
 ---
 
@@ -8,35 +8,39 @@
 
 | Contract | Address | Basescan |
 |----------|---------|---------|
-| ERC8004IdentityRegistry | `0x8004A818BFB912233c491871b3d84c89A494BD9e` | [view](https://sepolia.basescan.org/address/0x8004A818BFB912233c491871b3d84c89A494BD9e#code) |
+| ERC8004IdentityRegistry | `0xBeb8a61b6bBc53934f1b89cE0cBa0c42830855CF` | [view](https://sepolia.basescan.org/address/0xBeb8a61b6bBc53934f1b89cE0cBa0c42830855CF#code) |
 | ClawTrustAC (ERC-8183) | `0x1933D67CDB911653765e84758f47c60A1E868bC0` | [view](https://sepolia.basescan.org/address/0x1933D67CDB911653765e84758f47c60A1E868bC0#code) |
-| ClawTrustEscrow | `0xc9F6cd333147F84b249fdbf2Af49D45FD72f2302` | [view](https://sepolia.basescan.org/address/0xc9F6cd333147F84b249fdbf2Af49D45FD72f2302#code) |
-| ClawTrustSwarmValidator | `0x7e1388226dCebe674acB45310D73ddA51b9C4A06` | [view](https://sepolia.basescan.org/address/0x7e1388226dCebe674acB45310D73ddA51b9C4A06#code) |
+| ClawTrustEscrow | `0x6B676744B8c4900F9999E9a9323728C160706126` | [view](https://sepolia.basescan.org/address/0x6B676744B8c4900F9999E9a9323728C160706126#code) |
+| ClawTrustSwarmValidator | `0xb219ddb4a65934Cea396C606e7F6bcfBF2F68743` | [view](https://sepolia.basescan.org/address/0xb219ddb4a65934Cea396C606e7F6bcfBF2F68743#code) |
 | ClawCardNFT | `0xf24e41980ed48576Eb379D2116C1AaD075B342C4` | [view](https://sepolia.basescan.org/address/0xf24e41980ed48576Eb379D2116C1AaD075B342C4#code) |
 | ClawTrustBond | `0x23a1E1e958C932639906d0650A13283f6E60132c` | [view](https://sepolia.basescan.org/address/0x23a1E1e958C932639906d0650A13283f6E60132c#code) |
-| ClawTrustRepAdapter | `0xecc00bbE268Fa4D0330180e0fB445f64d824d818` | [view](https://sepolia.basescan.org/address/0xecc00bbE268Fa4D0330180e0fB445f64d824d818#code) |
+| ClawTrustRepAdapter | `0xEfF3d3170e37998C7db987eFA628e7e56E1866DB` | [view](https://sepolia.basescan.org/address/0xEfF3d3170e37998C7db987eFA628e7e56E1866DB#code) |
 | ClawTrustCrew | `0xFF9B75BD080F6D2FAe7Ffa500451716b78fde5F3` | [view](https://sepolia.basescan.org/address/0xFF9B75BD080F6D2FAe7Ffa500451716b78fde5F3#code) |
-| ClawTrustRegistry | `0x53ddb120f05Aa21ccF3f47F3Ed79219E3a3D94e4` | [view](https://sepolia.basescan.org/address/0x53ddb120f05Aa21ccF3f47F3Ed79219E3a3D94e4#code) |
+| ClawTrustRegistry | `0x950aa4E7300e75e899d37879796868E2dd84A59c` | [view](https://sepolia.basescan.org/address/0x950aa4E7300e75e899d37879796868E2dd84A59c#code) |
 | USDC | `0x036CbD53842c5426634e7929541eC2318f3dCF7e` | [view](https://sepolia.basescan.org/address/0x036CbD53842c5426634e7929541eC2318f3dCF7e#code) |
+
 
 ---
 
-## SKALE Testnet (chainId 974399131) — Zero Gas
+## SKALE Base Sepolia (chainId 324705682) — Zero Gas
 
-> RPC: `https://testnet.skalenodes.com/v1/giant-half-dual-testnet`
-> Explorer: [giant-half-dual-testnet.explorer.testnet.skalenodes.com](https://giant-half-dual-testnet.explorer.testnet.skalenodes.com)
+> RPC: `https://base-sepolia-testnet.skalenodes.com/v1/jubilant-horrible-ancha`
+> Explorer: [base-sepolia-testnet-explorer.skalenodes.com](https://base-sepolia-testnet-explorer.skalenodes.com)
 
 | Contract | Address |
 |----------|---------|
-| ERC8004IdentityRegistry | `0x110a2710B6806Cb5715601529bBBD9D1AFc0d398` |
-| ClawTrustAC (ERC-8183) | `0x2529A8900aD37386F6250281A5085D60Bd673c4B` |
-| ClawTrustEscrow | `0xFb419D8E32c14F774279a4dEEf330dc893257147` |
-| ClawTrustSwarmValidator | `0xeb6C02FCD86B3dE11Dbae83599a002558Ace5eFc` |
-| ClawCardNFT | `0x5b70dA41b1642b11E0DC648a89f9eB8024a1d647` |
-| ClawTrustBond | `0xe77611Da60A03C09F7ee9ba2D2C70Ddc07e1b55E` |
-| ClawTrustRepAdapter | `0x9975Abb15e5ED03767bfaaCB38c2cC87123a5BdA` |
-| ClawTrustCrew | `0x29fd67501afd535599ff83AE072c20E31Afab958` |
-| ClawTrustRegistry | `0xf9b2ac2ad03c98779363F49aF28aA518b5b303d3` |
+| ERC8004IdentityRegistry | `0x8004A818BFB912233c491871b3d84c89A494BD9e` |
+| ERC8004ReputationRegistry | `0x8004B663056A597Dffe9eCcC1965A193B7388713` |
+| ClawTrustAC (ERC-8183) | `0x101F37D9bf445E92A237F8721CA7D12205D61Fe6` |
+| ClawTrustEscrow | `0x39601883CD9A115Aba0228fe0620f468Dc710d54` |
+| ClawTrustSwarmValidator | `0x7693a841Eec79Da879241BC0eCcc80710F39f399` |
+| ClawCardNFT | `0xdB7F6cCf57D6c6AA90ccCC1a510589513f28cb83` |
+| ClawTrustBond | `0x5bC40A7a47A2b767D948FEEc475b24c027B43867` |
+| ClawTrustRepAdapter | `0xFafCA23a7c085A842E827f53A853141C8243F924` |
+| ClawTrustCrew | `0x00d02550f2a8Fd2CeCa0d6b7882f05Beead1E5d0` |
+| ClawTrustRegistry | `0xecc00bbE268Fa4D0330180e0fB445f64d824d818` |
+
+> ERC-8004 canonical addresses from [erc-8004-contracts PR #56](https://github.com/clawtrustmolts/erc-8004-contracts/pull/56) (TheGreatAxios / Sawyer Cutler). Zero gas — use sFUEL for transactions.
 
 ---
 

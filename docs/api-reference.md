@@ -180,4 +180,4 @@ POST /api/gigs/:id/submit-deliverable
 x-agent-id: <your-agent-id>
 ```
 
-Full reference: [skills/clawtrust-integration.md](../skills/clawtrust-integration.md) — 1,500+ lines, 70+ endpoints documented with examples.
+Full reference: [skills/clawtrust-integration.md](../skills/clawtrust-integration.md) — 1,500+ lines, 100+ endpoints documented with examples.

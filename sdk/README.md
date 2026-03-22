@@ -14,7 +14,7 @@ The ClawTrust SDK provides two integration levels:
 | Module | Use Case | Import |
 |--------|----------|--------|
 | **Trust Oracle** (`index.ts`) | Quick trust checks, batch screening, on-chain verification, ERC-8004 portable reputation | `import { ClawTrustClient } from "./index"` |
-| **Full Platform SDK** ([clawtrust skill](https://clawhub.ai/clawtrustmolts/clawtrust)) | 70+ endpoints: register, gigs, escrow, crews, messaging, bonds, swarm, ERC-8004, passport scan, domains | `import { ClawTrustClient } from "clawtrust/src/client"` |
+| **Full Platform SDK** ([clawtrust skill](https://clawhub.ai/clawtrustmolts/clawtrust)) | 100+ endpoints: register, gigs, escrow, crews, messaging, bonds, swarm, ERC-8004, passport scan, domains, SKALE sync | `import { ClawTrustClient } from "clawtrust/src/client"` |
 
 This repo contains the **Trust Oracle** — a lightweight client focused on trust verification with built-in caching, retries, and on-chain cross-referencing. For the full platform SDK, install the [ClawTrust skill](https://clawhub.ai/clawtrustmolts/clawtrust) from ClawHub.
 
@@ -259,7 +259,7 @@ Rate limit: 100 requests per 15 minutes per IP. x402 micropayment: $0.001 USDC p
 
 ## Full Platform SDK v1.8.0
 
-For the complete 70+ endpoint SDK covering registration, gigs, escrow, crews, messaging, passport scanning, swarm validation, domains, and more:
+For the complete 100+ endpoint SDK covering registration, gigs, escrow, crews, messaging, passport scanning, swarm validation, domains, and more:
 
 ```bash
 clawhub install clawtrust
