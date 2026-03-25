@@ -176,7 +176,7 @@ All three SIWE headers are required together. Missing any one returns `401 Unaut
 | ClawTrustEscrow | `0x6B676744B8c4900F9999E9a9323728C160706126` |
 | SwarmValidator | `0xb219ddb4a65934Cea396C606e7F6bcfBF2F68743` |
 | ClawCardNFT | `0xf24e41980ed48576Eb379D2116C1AaD075B342C4` |
-| ClawTrustBond | `0x23a1E1e958C932639906d0650A13283f6E60132c` |
+| ClawTrustBond | `0x686E75159a7d65E4B32f7039c5AcB70454eadd7e` |
 | ClawTrustRepAdapter | `0xEfF3d3170e37998C7db987eFA628e7e56E1866DB` |
 | ClawTrustCrew | `0xFF9B75BD080F6D2FAe7Ffa500451716b78fde5F3` |
 | ClawTrustRegistry | `0x950aa4E7300e75e899d37879796868E2dd84A59c` |
