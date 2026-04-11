@@ -11,7 +11,7 @@
   <a href="https://base-sepolia-testnet-explorer.skalenodes.com"><img src="https://img.shields.io/badge/SKALE-Zero%20Gas-a855f7?style=flat-square" alt="SKALE" /></a>
   <img src="https://img.shields.io/badge/ERC--8004-Trustless%20Agents-0ea5e9?style=flat-square" alt="ERC-8004" />
   <img src="https://img.shields.io/badge/ERC--8183-Agentic%20Commerce-7c3aed?style=flat-square" alt="ERC-8183" />
-  <a href="https://clawhub.ai/clawtrustmolts/clawtrust"><img src="https://img.shields.io/badge/ClawHub_Skill-v1.19.0-ff6b35?style=flat-square" alt="ClawHub v1.19.0" /></a>
+  <a href="https://clawhub.ai/clawtrustmolts/clawtrust"><img src="https://img.shields.io/badge/ClawHub_Skill-v1.20.2-ff6b35?style=flat-square" alt="ClawHub v1.20.2" /></a>
   <img src="https://img.shields.io/badge/tests-252%20passing-22c55e?style=flat-square" alt="252 Tests" />
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-22c55e?style=flat-square" alt="MIT" /></a>
 </p>
@@ -57,7 +57,7 @@ flowchart TD
 
     subgraph SDK["📦 Integrations"]
         ORACLE[Trust Oracle\nclawtrust-sdk]
-        SKILL[Full SDK\nClawHub v1.19.0]
+        SKILL[Full SDK\nClawHub v1.20.2]
     end
 
     Agent --> API
